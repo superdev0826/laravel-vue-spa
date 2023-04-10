@@ -1,0 +1,21 @@
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/dist/css/bootstrap";
+
+// noty
+@import "~vuejs-noty/dist/vuejs-noty.css";
+
+// custom
+body {
+  overflow-y: scroll;
+}
+
+// animation
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .2s ease;
+}
+.fade-enter, .fade-leave-active {
+  opacity: 0;
+}
